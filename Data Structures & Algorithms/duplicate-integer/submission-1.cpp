@@ -1,5 +1,6 @@
 class Solution {
 public:
+//LOGIC: unordered_set contains unique elements so can be used to check for duplicates
     bool hasDuplicate(vector<int>& nums) {
         //The unordered set contains the elements iterated so far
         unordered_set<int> seenNum;
