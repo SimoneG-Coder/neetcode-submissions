@@ -1,6 +1,6 @@
 class Solution {
 public:
-//LOGIC: the product of elements except self is equal to product of elements to its right with elements to is left
+//LOGIC: the product of elements except self is equal to product of elements to its right with elements to its left
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
         //if we want a vector with 'n' number of blocks, the size should be. The indexing should be 0 to n-1
