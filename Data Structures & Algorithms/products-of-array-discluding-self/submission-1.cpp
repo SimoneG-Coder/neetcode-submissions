@@ -3,7 +3,7 @@ public:
 //LOGIC: the product of elements except self is equal to product of elements to its right with elements to its left
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
-        //if we want a vector with 'n' number of blocks, the size should be. The indexing should be 0 to n-1
+        //if we want a vector with 'n' number of blocks, the size should be n. The indexing should be 0 to n-1
         vector<int> output(n,1);
 
         int leftProduct = 1;
