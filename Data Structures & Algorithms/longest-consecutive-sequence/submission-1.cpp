@@ -1,5 +1,7 @@
 class Solution {
 public:
+//LOGIC: use an unordered_set to store all elements and preventing duplicates
+//only continue the iteration if an element is the header in its sequence
     int longestConsecutive(vector<int>& nums) {
         unordered_set<int> st(nums.begin(), nums.end());
         int maxLength = 0;
