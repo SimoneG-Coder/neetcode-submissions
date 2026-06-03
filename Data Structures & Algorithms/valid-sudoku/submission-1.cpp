@@ -1,6 +1,6 @@
 class Solution {
 public:
-//LOGIC: use coolean arrays to check if a number is a duplicate or not
+//LOGIC: use boolean arrays to check if a number is a duplicate or not
 //[10] to make indexing easier as each number will be in its corresponding clock
     bool isValidSudoku(vector<vector<char>>& board) {
         bool rows[9][10] = {false};
