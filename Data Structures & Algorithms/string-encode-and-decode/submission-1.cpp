@@ -21,7 +21,7 @@ public:
                 }
                 //convert the length in string to intger using stoi()
                 //substr(start position, number of elements) to egt substring
-                int length = stoi(s.substr(i, j-i));
+                int length = stoi(s.substr(i, j-i)); //j is on # otherwise we would need j-i+1 for zero indexed substring
                 //then place i to the position at the first letter of the string
                 i = j+1;
                 decoded.push_back(s.substr(i, length));
