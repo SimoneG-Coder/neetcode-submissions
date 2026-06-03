@@ -1,7 +1,7 @@
 class Solution {
 public:
 //LOGIC: use boolean arrays to check if a number is a duplicate or not
-//[10] to make indexing easier as each number will be in its corresponding clock
+//[10] to make indexing easier as each number will be in its corresponding block
     bool isValidSudoku(vector<vector<char>>& board) {
         bool rows[9][10] = {false};
         bool cols[9][10] = {false};
