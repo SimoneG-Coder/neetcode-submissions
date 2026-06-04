@@ -1,5 +1,7 @@
 class Solution {
 public:
+//LOGIC: use normal binary search after collapsing the matrix into 1 long array
+//get i coordiate of matrix using mid/n and j using mid%n
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int m = matrix.size();
         int n = matrix[0].size();
