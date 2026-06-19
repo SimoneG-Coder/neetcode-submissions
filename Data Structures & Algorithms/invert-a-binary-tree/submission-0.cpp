@@ -12,9 +12,10 @@
 
 class Solution {
 public:
+//exchange the left and right nodes
     TreeNode* invertTree(TreeNode* root) {
         if(!root) return nullptr;
-
+//swap the left and right nodes
         TreeNode* temp = root->left;
         root->left = root->right;
         root->right = temp;
